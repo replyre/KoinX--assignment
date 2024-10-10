@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Crypto Tax Calculator for Australia - KoinX Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Crypto Tax Calculator** built as part of the KoinX assignment. It helps Australian users calculate their crypto taxes based on the Australian Tax Office (ATO) tax rates. The project is built using **React** and **Ant Design**, following the design provided via Figma.
+![image](https://github.com/user-attachments/assets/34ef1d3d-6370-49c4-8362-d02644938aea)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [FAQs](#faqs)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The **Crypto Tax Calculator** allows Australian users to calculate their taxes based on different income slabs as per ATO regulations. The UI is clean, user-friendly, and responsive, designed using **Ant Design** components to ensure a seamless user experience. The FAQ section provides users with answers to common questions related to the calculator and crypto taxes in Australia.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Calculate crypto taxes based on the latest ATO tax brackets.
+- Clean, responsive UI developed with **Ant Design**.
+- Ability to input income details and view tax results.
+- FAQ section to answer common crypto tax-related questions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Stack
 
-### `npm run build`
+- **React**: JavaScript library for building user interfaces.
+- **Ant Design**: UI component library for React to build a responsive and user-friendly interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get the project running locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/KoinX--assignment.git
+   ```
 
-### `npm run eject`
+2. **Navigate to the project directory**:
+   ```bash
+   cd KoinX--assignment
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app should now be running at `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- Open the application in your browser.
+- Enter your income details in the provided input fields.
+- Select your tax bracket or view the tax calculation results.
+- Check out the FAQ section for answers to common questions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## FAQs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. How is the crypto tax calculated?
+The tax is calculated based on the income brackets provided by the Australian Tax Office (ATO). You can enter your income to see how much tax you owe, based on those brackets.
 
-### Code Splitting
+### 2. Does this calculator include capital gains tax (CGT)?
+This calculator is a basic crypto income tax calculator and does not currently support capital gains tax. You can manually add capital gains if necessary.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3. Are the tax rates up to date?
+Yes, the tax rates used in the calculator are based on the **ATO Individual Income Tax Rates 2022–2023**.
 
-### Analyzing the Bundle Size
+### 4. Can I use this calculator for other countries?
+This calculator is specifically designed for Australian users, following ATO regulations. For other countries, the tax calculations will not be accurate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5. Where can I get more information about crypto taxes in Australia?
+You can visit the official [ATO website](https://www.ato.gov.au/) for more detailed information regarding crypto taxes.
