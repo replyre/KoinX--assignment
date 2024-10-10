@@ -342,7 +342,7 @@ li::marker {
   }
 
   .calculator .financial-yr .inline-flex .field {
-    width: 164px;
+    width: 120px;
     margin-left: 0;
     padding: 16px;
   }
@@ -367,7 +367,7 @@ li::marker {
   .calculator .calculator-form input,
   select,
   .amount {
-    width: 348px;
+    width: 300px;
     box-sizing: border-box;
   }
 
@@ -381,8 +381,7 @@ li::marker {
   }
 
   .calculator .calculator-form {
-    margin: 0;
-    width: 348px;
+    width: 300px;
   }
 
   .capital-gains,
@@ -415,7 +414,7 @@ li::marker {
   }
 
   .calculator-form > div {
-    width: 348px;
+    width: 300px;
   }
 
   .investment .timeline {
@@ -428,16 +427,29 @@ li::marker {
   }
 
   .calculator .calculator-form select {
-    width: 348px;
+    width: 300px;
   }
 
   .faqs {
-    width: 382px;
+    width: 350px;
     margin: 0px 10px 48px;
   }
 
   .navbar .nav-pills {
     display: none;
+  }
+  .banner {
+    width: 350px;
+    /* padding: 10px; */
+  }
+  .banner h1 {
+    padding: 10px;
+  }
+  .banner p {
+    padding: 0px 10px;
+  }
+  footer {
+    padding: 10px !important;
   }
 }
 

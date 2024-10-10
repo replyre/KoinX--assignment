@@ -36,7 +36,7 @@ const AppFooter = () => {
         </div>
       </div>
       <Row justify="space-between">
-        <Col xs={16} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4}>
           <h3>Crypto Taxes for</h3>
           <div>
             <p>Individuals and Investors</p>
@@ -46,7 +46,7 @@ const AppFooter = () => {
           <img src="./images/iso.png" alt="" height={"150px"} />
         </Col>
 
-        <Col xs={16} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4}>
           <h3>Free Tools</h3>
           <div>
             <p>Crypto Prices Live</p>
@@ -58,7 +58,7 @@ const AppFooter = () => {
           </div>
         </Col>
 
-        <Col xs={16} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4}>
           <h3>Resouce Center</h3>
           <div>
             <p>Crypto Tax Guides</p>
@@ -71,7 +71,7 @@ const AppFooter = () => {
             <p>Crypto Price Predictions</p>
           </div>
         </Col>
-        <Col xs={16} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4}>
           <h3>Help and Support</h3>
           <div>
             <p>Product Guides</p>
@@ -80,7 +80,7 @@ const AppFooter = () => {
             <p>Contact us</p>
           </div>
         </Col>
-        <Col xs={16} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4}>
           <h3>Company</h3>
           <div>
             <p>About Us</p>
