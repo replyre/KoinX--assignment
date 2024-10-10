@@ -95,13 +95,4 @@ export const faqsData = [
       ],
     ],
   },
-  {
-    id: 12,
-    question: "How are cryptocurrencies taxed in Australia?",
-    answer: [
-      "To calculate your crypto tax in Australia accurately, you need to consider both income tax and capital gains tax.",
-      "Income Tax",
-      "In Australia, when an individual (investor) sells, trades, spends, earns (salary, mining, interest) or gifts cryptocurrency, the net capital gain is taxed at the same rate as their Income Tax. This tax rate is determined based on their total income for the tax year.",
-    ],
-  },
 ];
